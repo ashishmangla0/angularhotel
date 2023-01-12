@@ -1,0 +1,4 @@
+<button (click)="toggle()">{{hideRooms}}</button>
+{{rooms?.availableRooms ?? 'No Rooms'}}
+
+<div *ngIf="rooms?.availableRooms">Room List</div>
